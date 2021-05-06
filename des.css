@@ -1,0 +1,255 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* navbar*/
+nav{
+    background-color: rgba(0,0,0,0.4);
+    border-bottom-color: blue;
+    border-bottom-style: inset;
+  
+    width: 100%;
+    
+}
+nav .logo{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: fangsong;
+    margin-left: 44px;
+}
+nav ul{
+        list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+    left: 100px;
+
+    padding-right: 20px;
+}
+nav ul a{
+   text-decoration: none;
+   color: white
+    
+}
+nav ul a:visited{
+   background: #151A48;
+   color: white;
+   border-radius: 15px;
+border-width: 100%;
+    
+}
+nav ul a:hover{
+   background: #151A48;
+   color: white;
+   border-radius: 15px;
+border-width: 100%;
+    
+}
+
+nav ul li {
+    padding-right: 10px;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 25px;
+    place-content: space-between;
+    
+}
+/* end navbar*/
+/* index.html*/
+.box1{
+    height:100vh;
+    width:100%;
+    background-image:url("img/colleagues-friends.jpg");
+    background-size:cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box2{
+    height:100vh;
+    width:100%;
+    background-image:url("img/ralexing.jpg");
+    background-size:cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.box3{
+    height:100vh;
+    width:100%;
+    background-image:url("img/cellphone-in-bed.jpg");
+    background-size:cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+div h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 25rem;
+    text-align: center;
+transition-duration: 2s;
+}
+div h1:hover{
+font-size: 70px;
+    color: #1F2F4F;
+    
+
+}
+/*end index.html*/
+/* about*/
+header{
+background-image: url("img/girl-graden.jpg"); ;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+    background-size: cover;
+    /* background-position: bottom; */
+    height: 100vh;
+    background-position: center; 
+
+}
+header h2{
+text-align: center;
+font-size: 60px;
+padding-top: 2.5em;
+}
+/* end about*/
+/*Footer*/
+footer{
+     background-color: rgb(0,0,0);
+     color: white;
+
+}
+footer .bottom{
+   background-color: rgba(0,0,0,0.4);
+}
+.row{
+   background-color: #927979;
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 5px;
+}
+.row .col-4{
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 35%;
+}
+.col-4 ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: emoji;
+    font-weight: bold;
+}
+.col-4 a{
+text-decoration: none;
+    display: block;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-transform: capitalize;
+}
+}
+.col-4 [type="search"] {
+    size: 4px;
+    width: 80%;
+    height: 50px;
+    box-sizing: content-box;
+    position: relative;
+    top: 25px;
+}
+col-4 span{
+width: 40px;
+    background-color: black;
+    height: 49px;
+    position: relative;
+    top: 43px;
+    left: -7px;
+}
+.col-4 #col4{
+    background: blue;
+    border: 4px solid black;
+    padding-right: 40px;
+    margin: 0 5px;
+    border-bottom-right-radius: 310px;
+}
+.col-4 h4{
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.bottom .copy-right{
+
+    width: 50%;
+    font-size: 18px;
+
+}
+.bottom .social-btn {
+        text-align: right;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 375px ){
+    nav .logo{
+    font-size: 35px;
+    padding-top: 10px;
+}
+nav ul{
+        
+    position: relative;
+    left: 60%;
+    padding: 20px;
+}
+nav ul li {
+    
+    text-align: center;
+    font-size: 29px;
+    }
+  div  h1{
+    
+    margin-top: 15rem;
+    }
+    /*footer*/
+    .col-4 [type="search"] {
+    size: 3px;
+    width: 50%;
+    height: 30px;
+    box-sizing: content-box;
+    position: relative;
+    top: 25px;
+}
+col-4 span{
+width: 40px;
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: -7px;
+}
+.c
+    .col-4 h4{
+    display: inline;
+    font-size: 25px;
+    padding-left: -50px;
+    width: 10%;
+    
+}
+  .col-4 #col4{
+  font-size: 30px;
+    
+}
+.bottom .copy-right{
+    font-size: 15px;
+     text-align: left;
+}
+}

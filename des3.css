@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:#ffffff;
+
+}
+.center{
+    min-height:10vh;
+    width:10%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+h1{
+font-size: 50px;
+font-weight:bolder;
+line-height: 8px;
+background: url("/img/cellphone-in-bed.jpg") cover center;
+-webkit-background-clip: inherit;
+-webkit-text-fill-color: transparent;
+}
